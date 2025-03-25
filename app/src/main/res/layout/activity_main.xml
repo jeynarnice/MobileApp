@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Loop" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Loop (คำสั่งวนซ้ำ) คืออะไร?
+Loop คือคำสั่งที่ใช้ในการ ทำงานซ้ำๆ ตามเงื่อนไขที่กำหนด โดยไม่ต้องเขียนคำสั่งเดิมหลายๆ ครั้ง ช่วยให้โค้ดกระชับและจัดการกับข้อมูลที่ทำซ้ำได้สะดวกขึ้น" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ใช้เมื่อไหร่?
+เมื่อเราต้องการทำงานเดิมซ้ำหลายครั้ง
+
+เช่น พิมพ์ข้อความซ้ำ, อ่านข้อมูลทีละรายการ, คำนวณวนรอบ ฯลฯ" />
+
+    <Button
+        android:id="@+id/btnWhile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="while loop" />
+
+    <Button
+        android:id="@+id/btnDo_while"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="do-while loop" />
+
+    <Button
+        android:id="@+id/btnFor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="for loop" />
+</LinearLayout>

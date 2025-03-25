@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">proj1</string>
+    <string name="while_while_loop_javascript">คำสั่ง while เป็นคำสั่งวนซ้ำที่เรียบง่ายที่สุดสำหรับสร้างลูปเพื่อให้โปรแกรมทำงานซ้ำตามเงื่อนไขที่กำหนดในขณะที่เงื่อนไขเป็นจริง นี่เป็นรูปแบบการใช้งานคำสั่ง while loop ในภาษา JavaScript</string>
+    <string name="while_loop">คำสั่ง while loop</string>
+    <string name="while_loop_condition">ในการใช้งานคำสั่ง while loop เราจะต้องกำหนดเงื่อนไข condition โปรแกรมจะทำงานในลูปในขณะที่เงื่อนไขเป็นจริง และจบการทำงานของลูปเมื่อเงื่อนไขเป็นเท็จ ดังนั้นภายในลูปเราจะต้องทำอะไรบางอย่างเพื่อทำให้เงื่อนไขเป็นเท็จเพื่อจบการทำงานของลูป</string>
+    <string name="while_condition_n_statements_n">while (condition) { \n // Statements \n}</string>
+    <string name="while_loop_1_10">ต่อไปเราจะมาดูวิธีการใช้งานคำสั่ง while loop เพื่อนับและแสดงตัวเลขจาก 1 - 10 ออกทางหน้าจอ นี่เป็นตัวอย่าง</string>
+    <string name="while_js_n_let_i_1_n_while_i_lt_10_n_console_log_i_n_i_n_n_console_log_loop_ended"><![CDATA[while.js \n let i = 1; \n while (i <= 10) { \n console.log(i); \n i++; \n } \n console.log(Loop ended);]]></string>
+    <string name="_10_while_loop">จะเห็นว่าเราไม่จำเป็นต้องเขียนโค้ดการแสดงผลตัวเลขทั้ง 10 บรรทัดเพื่อแสดงตัวเลขออกทางหน้า จอ เราเพียงใช้คำสั่ง while loop และกำหนดเงื่อนไขการทำงานให้กับมัน</string>
+    <string name="let_i_1">let i = 1;</string>
+    <string name="i_10_1_2_3_4_5_11">ในขณะที่เงื่อนไขเป็นจริง นั่นคือค่าของ i น้อยกว่าหรือเท่ากับ 10 โปรแกรมจะทำงานในลูปและแสดงตัวเลขออกมา จากนั้นเพิ่มค่าในตัวแปรขึ้น 1 ดังนั้นในการทำงานแต่ละรอบค่าในตัวแปรจะเพิ่มขึ้นเรื่อยๆ เป็น 2, 3, 4, 5, ... ตามลำดับ จนถึง 11 ซึ่งนั่นจะทำให้เงื่อนไขเป็นเท็จและลูปจบการทำงาน</string>
+    <string name="while_i_10_n_console_log_i_n_i_n"><![CDATA[while (i <= 10) {\n console.log(i);\n i++;\n}]]></string>
+    <string name="i_1_while">ก่อนอื่นเราประกาศตัวแปร i และกำหนดค่าให้กับตัวแปรเป็น 1 ซึ่งนี่เป็นค่าเริ่มต้นในตอนที่ลูปเริ่มทำงาน เมื่อโปรแกรมพบกับคำสั่ง while จะทำการตรวจสอบเงื่อนไขก่อนที่จะทำงานในลูป</string>
+    <string name="run">Run</string>
+    <string name="do_while_loop">คำสั่ง do-while loop</string>
+    <string name="do_while_while_loop_do_while_loop">คำสั่ง do-while ใช้สำหรับกำหนดให้โปรแกรมทำงานซ้ำเหมือนกับคำสั่ง while loop แต่สิ่งที่แตกต่างกันคือเงื่อนไขจะถูกตรวจสอบในตอนท้ายของลูป นั่นหมายความว่าในการใช้งานคำสั่ง do-while loop โปรแกรมจะทำงานในลูปอย่างน้อยหนึ่งรอบเสมอ นี่เป็นรูปแบบการใช้งาน</string>
+    <string name="do_n_statements_n_while_condition">do { \n // Statements \n } while (condition);</string>
+    <string name="do_while">เมื่อโปรแกรมพบกับคำสั่ง do-while มันทำงานภายในลูปก่อนหนึ่งรอบทันที จากนั้นค่อยตรวจสอบเงื่อนไข หากเป็นจริงโปรแกรมทำงานลูปในรอบถัด หรือจบการทำงานของลูปหากเงื่อนไขเป็นเท็จ</string>
+    <string name="do_while_loop_while_loop">แต่คุณอาจสงสัยว่าเราเมื่อไหร่ที่เราต้องใช้คำสั่ง do-while loop แทนคำสั่ง while loop</string>
+    <string name="_1_6_5">เพื่อให้เห็นความแตกต่าง ต่อไปมาดูตัวอย่างการสุ่มค่าตัวเลขระหว่าง 1 - 6 และแสดงผลตัวเลขดังกล่าวออกทางหน้าจอ และสิ้นสุดการสุ่มเมื่อตัวเลขที่สุ่มได้มีค่าเป็น 5 นี่เป็นโค้ดของโปรแกรม</string>
+    <string name="random_number_js_nlet_rand_nlet_count_0_n_ndo_n_rand_math_floor_math_random_6_1_n_console_log_quot_random_number_d_quot_rand_n_count_n_while_rand_5_n_nconsole_log_quot_it_takes_d_random_to_get_5_quot_count">random_number.js\nlet rand;\nlet count = 0;\n\ndo {\n rand = Math.floor(Math.random() * 6) + 1;\n console.log(\"Random number: %d\", rand);\n count++;\n} while (rand != 5);\n\nconsole.log(\"It takes %d random to get 5\", count);</string>
+    <string name="run_code">Run Code</string>
+    <string name="_7_5">นี่เป็นผลลัพธ์การทำงานของโปรแกรม โปรแกรมจะสุ่มไปเรื่อยๆ จนกว่าจะได้ผลลัพธ์เป็น 5</string>
+    <string name="check">เนื่องจากการตรวจสอบเงื่อนไขนั้นทำในตอนท้ายของลูป ดังนั้นค่าที่เราสุ่มได้ทั้งหมดจะแสดงออกทางหน้าจอเพราะเราแสดงมันก่อนเงื่อนไขจะถูกตรวจสอบนั่นเอง</string>
+    <string name="n_while_rand_5">... \n } while (rand != 5);</string>
+    <string name="_5_count">ดังนั้นในตอนที่โปรแกรมสุ่มตัวเลขได้ 5 มันถูกแสดงผลออกทางหน้าจอก่อนที่จะถูกนำไปตรวจสอบเงื่อนไข และนั่นทำให้เงื่อนไขเป็นเท็จและลูปจบการทำงาน นอกจากนี้เรามีตัวแปร count สำหรับนับด้วยว่าโปรแกรมได้ทำการสุ่มไปกี่ครั้งจนกว่าจะได้ตัวเลขที่ต้องการ</string>
+    <string name="while_do_while_while_do_while">ในบทนี้ คุณได้เรียนรู้การใช้งานคำสั่ง while และ do-while เพื่อควบคุมให้โปรแกรมทำงานซ้ำๆ ภายใต้เงื่อนไขที่กำหนด โดยทั่วไปแล้วการใช้คำสั่ง while นั้นเพียงพอสำหรับการเขียนโปรแกรมทั่วไป แต่ในกรณีที่คุณต้องการทำบางอย่างก่อนตรวจสอบเงื่อนไข การใช้คำสั่ง do-while อาจสะดวกกว่า</string>
+</resources>
