@@ -1,100 +1,173 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".For">
 
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back" />
+
     <TextView
         android:id="@+id/textView22"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:text="@string/for_loop" />
 
     <TextView
         android:id="@+id/textView23"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:text="@string/for_loop_javascript_while_loop" />
 
     <TextView
         android:id="@+id/textView29"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:text="@string/for_loop2" />
 
     <TextView
         android:id="@+id/textView30"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:text="@string/for_loop_for_loop_for_loop_javascript" />
 
     <TextView
         android:id="@+id/textView31"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:text="@string/for_initialize_condition_changes_n_statements_n" />
 
     <TextView
         android:id="@+id/textView32"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:text="@string/for_loop_initialize_condition_changes" />
 
     <TextView
         android:id="@+id/textView33"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:text="@string/for_loop_1_5" />
 
     <TextView
         android:id="@+id/textView34"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:text='@string/for_let_i_1_i_5_i_n_console_log_i_n_n_console_log_loop_ended' />
+
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnRun"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:text="@string/run_code2" />
 
     <TextView
-        android:id="@+id/textView35"
+        android:id="@+id/txtResult"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:text="" />
 
     <TextView
         android:id="@+id/textView36"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:text="@string/for_loop_1_5_i_1_i_5_i_5_for_loop_while" />
 
     <TextView
         android:id="@+id/textView37"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:text="@string/for_loop3" />
 
     <TextView
         android:id="@+id/textView38"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:text="@string/for_loop_index_for_loop_index" />
 
-    <Button
-        android:id="@+id/button2"
+    <TextView
+        android:id="@+id/textView35"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:text='@string/array_for_js_n_let_fruits_apple_banana_orange_grape_lemon_n_console_log_list_of_fruits_n_n_for_let_i_0_i_fruits_length_i_n_console_log_d_s_i_1_fruits_i_n' />
+
+
+    <Button
+        android:id="@+id/btnRun2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/run_code3" />
+
+    <TextView
+        android:id="@+id/txtResult2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
 
     <TextView
         android:id="@+id/textView39"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:text="@string/for_loop_fruits_5" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/for_let_i_0_i_fruits_length_i_n" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/index_0_i_index_i_fruits_length" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/breakk" />
+
+    <TextView
+    android:id="@+id/textView43"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/break_break_for_loop_1_10" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/break_js_n_for_let_i_1_i_10_i_n_if_i_5_n_break_n_n_console_log_i_n" />
+
+    <Button
+        android:id="@+id/btnRun3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/run_code4" />
+
+    <TextView
+        android:id="@+id/txtResult3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/for_loop_1_10_i_5_break_0_4_break" />
+
 </LinearLayout>
+</ScrollView>

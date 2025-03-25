@@ -71,15 +71,16 @@
         android:padding="8dp"/>
 
     <!-- อธิบายการใช้งานลูป while -->
+
+    <!-- ตัวอย่างโค้ด while.js -->
     <TextView
         android:id="@+id/textView8"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:padding="8dp"
         android:text="@string/while_loop_1_10"
-        android:textSize="14sp"
-        android:padding="8dp"/>
+        android:textSize="14sp" />
 
-    <!-- ตัวอย่างโค้ด while.js -->
     <TextView
         android:id="@+id/textView9"
         android:layout_width="match_parent"

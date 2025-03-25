@@ -20,7 +20,6 @@ public class Dowhile extends AppCompatActivity implements View.OnClickListener {
         txtResult = findViewById(R.id.txtResult);
         btnBack = findViewById(R.id.btnBack);
         btnBack.setOnClickListener(this);
-
         btnRun.setOnClickListener(this);
     }
 
@@ -30,18 +29,18 @@ public class Dowhile extends AppCompatActivity implements View.OnClickListener {
         if (id == R.id.btnRun) {
             int rand;
             int count = 0;
-            StringBuilder resultBuilder = new StringBuilder(); // ใช้ StringBuilder สำหรับเก็บผลลัพธ์
+            StringBuilder resultBuilder = new StringBuilder();
 
             do {
-                rand = (int) (Math.random() * 6) + 1; // สุ่มตัวเลขระหว่าง 1 ถึง 6
-                resultBuilder.append("Random number: ").append(rand).append("\n"); // เก็บหมายเลขสุ่มใน StringBuilder
+                rand = (int) (Math.random() * 6) + 1;
+                resultBuilder.append("Random number: ").append(rand).append("\n");
                 count++;
-            } while (rand != 5); // ทำซ้ำจนกว่าจะได้ 5
+            } while (rand != 5);
 
-            resultBuilder.append("It takes ").append(count).append(" random(s) to get 5"); // เพิ่มข้อความผลลัพธ์สุดท้าย
-            txtResult.setText(resultBuilder.toString()); // แสดงผลทั้งหมดใน TextView
+            resultBuilder.append("It takes ").append(count).append(" random(s) to get 5");
+            txtResult.setText(resultBuilder.toString());
         } else if (id == R.id.btnBack) {
-            finish(); // ปิดหน้าจอปัจจุบัน
+            finish();
         }
     }
 }

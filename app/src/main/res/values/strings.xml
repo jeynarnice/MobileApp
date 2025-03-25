@@ -25,4 +25,26 @@
     <string name="n_while_rand_5">... \n } while (rand != 5);</string>
     <string name="_5_count">ดังนั้นในตอนที่โปรแกรมสุ่มตัวเลขได้ 5 มันถูกแสดงผลออกทางหน้าจอก่อนที่จะถูกนำไปตรวจสอบเงื่อนไข และนั่นทำให้เงื่อนไขเป็นเท็จและลูปจบการทำงาน นอกจากนี้เรามีตัวแปร count สำหรับนับด้วยว่าโปรแกรมได้ทำการสุ่มไปกี่ครั้งจนกว่าจะได้ตัวเลขที่ต้องการ</string>
     <string name="while_do_while_while_do_while">ในบทนี้ คุณได้เรียนรู้การใช้งานคำสั่ง while และ do-while เพื่อควบคุมให้โปรแกรมทำงานซ้ำๆ ภายใต้เงื่อนไขที่กำหนด โดยทั่วไปแล้วการใช้คำสั่ง while นั้นเพียงพอสำหรับการเขียนโปรแกรมทั่วไป แต่ในกรณีที่คุณต้องการทำบางอย่างก่อนตรวจสอบเงื่อนไข การใช้คำสั่ง do-while อาจสะดวกกว่า</string>
+    <string name="for_loop">คำสั่งวนซ้ำ for loop</string>
+    <string name="for_loop_javascript_while_loop">ในบทนี้ คุณจะได้เรียนรู้เกี่ยวกับคำสั่งวนซ้ำ for loop ในภาษา JavaScript ซึ่งเป็นคำสั่งวนซ้ำอีกคำสั่งหนึ่งนอกเหนือจากคำสั่ง while loop ที่คุณได้เรียนรู้ไปแล้วในบทก่อนหน้า</string>
+    <string name="for_loop2">คำสั่ง for loop</string>
+    <string name="for_loop_for_loop_for_loop_javascript">คำสั่ง for loop เป็นคำสั่งควบคุมการทำงานแบบวนซ้ำที่ใช้สำหรับควบคุมเพื่อให้โปรแกรมทำงานบางอย่างซ้ำๆ ในขณะที่เงื่อนไขเป็นจริง โดยทั่วไปแล้วเรามักใช้คำสั่ง for loop ในกรณีลูปที่จำนวนการวนรอบที่แน่นอน นี่เป็นรูปแบบของการใช้งานคำสั่ง for loop ในภาษา JavaScript</string>
+    <string name="for_initialize_condition_changes_n_statements_n">for (initialize; condition; changes) { \n // Statements \n }</string>
+    <string name="for_loop_initialize_condition_changes">for loop สามารถกำหนดค่าเริ่มต้น เงื่อนไข และการเปลี่ยนแปลงในหัวคำสั่งโดยคั่นด้วย ; ทำงานโดยเริ่มจาก initialize → ตรวจสอบ condition → ทำคำสั่งในลูป → ทำ changes → วนซ้ำจนกว่าเงื่อนไขจะเป็นเท็จ</string>
+    <string name="for_loop_1_5">สำหรับตัวอย่างในการใช้งานคำสั่ง for loop นั้นจะเป็นโปรแกรมนับตัวเลขจาก 1 - 5 และแสดงมันออกทางหน้าจอ มันเป็นโปรแกรมที่ง่ายที่สุดที่สามารถแสดงให้เห็นได้โดยการใช้ลูป นี่เป็นตัวอย่าง</string>
+    <string name="for_let_i_1_i_5_i_n_console_log_i_n_n_console_log_loop_ended"><![CDATA[for (let i = 1; i <= 5; i++) { \n console.log(i); \n } \n console.log(Loop ended);]]></string>
+    <string name="run_code2">Run Code</string>
+    <string name="for_loop_1_5_i_1_i_5_i_5_for_loop_while"><![CDATA[ในตัวอย่าง เราได้ใช้คำสั่ง for loop เพื่อวนแสดงตัวเลข 1 - 5 ออกทางหน้าจอ เราได้ประกาศตัวแปร i ที่มีค่าเริ่มต้นเป็น 1 สำหรับใช้งานภายในลูป ก่อนทำงานลูปในแต่ละรอบโปรแกรมจะตรวจสอบเงื่อนไข i <= 5 และทำงานในลูปในขณะที่เงื่อนไขเป็นจริง เมื่อจบการทำงานของลูปในแต่ละรอบ เราได้เพิ่มค่าในตัวแปร i ขึ้น เมื่อค่าในตัวแปรมากกว่า 5 นั่นจะทำให้เงื่อนไขเป็นเท็จและลูปจบการทำงาน จะเห็นว่าการทำงานของคำสั่ง for loop นั้นจะเหมือนกับคำสั่ง while แต่เราสามารถกำหนดค่าเริ่มต้น เงื่อนไข และการเปลี่ยนแปลงได้ในที่เดียวกัน]]></string>
+    <string name="for_loop3">คำสั่ง for loop กับอาเรย์</string>
+    <string name="for_loop_index_for_loop_index">การใช้งานคำสั่ง for loop ที่พบได้บ่อยในการเขียนโปรแกรมก็คือใช้ร่วมกับอาเรย์ เนื่องจากอาเรย์นั้นมีการเก็บข้อมูลเป็นชุดลำดับและมี Index สำหรับการเข้าถึงข้อมูลเป็นตัวเลข ดังนั้นเราสามารถใช้คำสั่ง for loop เพื่อสร้าง Index สำหรับเข้าถึงข้อมูลในอาเรย์ได้ นี่เป็นตัวอย่าง</string>
+    <string name="array_for_js_n_let_fruits_apple_banana_orange_grape_lemon_n_console_log_list_of_fruits_n_n_for_let_i_0_i_fruits_length_i_n_console_log_d_s_i_1_fruits_i_n"><![CDATA[array_for.js \n let fruits = [Apple, Banana, Orange, Grape, Lemon]; \n console.log(List of fruits); \n \n for (let i = 0; i < fruits.length; i++) { \n console.log(%d. %s, i + 1, fruits[i]); \n }]]></string>
+    <string name="run_code3">Run Code</string>
+    <string name="for_loop_fruits_5">ในตัวอย่าง เป็นการใช้คำสั่ง for loop เพื่อวนอ่านค่าในอาเรย์สองอาเรย์ และแสดงผลออกทางหน้าจอ อาเรย์แรก fruits เก็บรายชื่อของผลไม้จำนวน 5 ชนิดเอาไว้</string>
+    <string name="for_let_i_0_i_fruits_length_i_n"><![CDATA[for (let i = 0; i < fruits.length; i++) { \n ...]]></string>
+    <string name="index_0_i_index_i_fruits_length"><![CDATA[เนื่องจาก Index ของอาเรย์นั้นเริ่มต้นจาก 0 ดังนั้นเราประกาศตัวแปร i เริ่มต้นจากค่าดังกล่าว สำหรับเงื่อนไขนั้นจะเป็นการวนไปจนถึง Index ตัวสุดท้ายของอาเรย์ (i < fruits.length)]]></string>
+    <string name="breakk">คำสั่ง break</string>
+    <string name="break_break_for_loop_1_10">คำสั่ง break ใช้สำหรับควบคุมเพื่อให้ลูปจบการทำงานในทันทีโดยที่ไม่สนใจว่าเงื่อนไขจะยังเป็นจริงอยู่หรือไม่ และนี่เป็นตัวอย่างการใช้งานคำสั่ง break ร่วมกับคำสั่ง for loop มันเป็นโปรแกรมแสดงตัวเลข 1 - 10 ออกทางหน้าจอ</string>
+    <string name="break_js_n_for_let_i_1_i_10_i_n_if_i_5_n_break_n_n_console_log_i_n"><![CDATA[break.js \n for (let i = 1; i <= 10; i++) { \n if (i == 5) { \n break; \n } \n console.log(i); \n }]]></string>
+    <string name="run_code4">Run Code</string>
+    <string name="for_loop_1_10_i_5_break_0_4_break">ในตัวอย่าง เราได้ใช้คำสั่ง for loop สำหรับวนเพื่อแสดงตัวเลขจาก 1 - 10 แต่เมื่อค่าของตัวแปร i เท่ากับ 5 เราได้เรียกใช้งานคำสั่ง break ซึ่งนี่ทำให้ลูปจบการทำงานในทันที และนั่นทำให้โปรแกรมแสดงตัวเลขเพียงแค่ 0 - 4 เท่านั้น โปรแกรมทำงานได้ถูกต้องเพราะเราตั้งใจให้มันเป็นเช่นนั้น และนั่นเป็นการทำงานของคำสั่ง break</string>
 </resources>
